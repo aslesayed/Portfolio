@@ -6,22 +6,22 @@ import IconTwitter from "../components/icons/twitter.astro";
 export const SOCIALS = [
   {
     name: "Github",
-    url: "https://github.com/thevrus",
+    url: "https://github.com/aslesayed",
     icon: IconGithub,
   },
   {
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/vrusin/",
+    url: "http://www.linkedin.com/in/saima-sayeda-8703702a2",
     icon: IconLinkedin,
   },
-  {
-    name: "Twitter",
-    url: "https://twitter.com/rusin_vadim",
-    icon: IconTwitter,
-  },
-  {
-    name: "Dribbble",
-    url: "https://dribbble.com/iamvr",
-    icon: IconDribbble,
-  },
+  // {
+  //   name: "Twitter",
+  //   url: "https://twitter.com/rusin_vadim",
+  //   icon: IconTwitter,
+  // },
+  // {
+  //   name: "Dribbble",
+  //   url: "https://dribbble.com/iamvr",
+  //   icon: IconDribbble,
+  // },
 ];

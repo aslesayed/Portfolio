@@ -1,0 +1,63 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Dragon Papers">
+  <div class="relative hero z-10">
+    <div class="mx-auto min-h-screen max-w-screen-2xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <div class="lg:flex lg:justify-between lg:gap-4">
+        <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-12 ">
+          <div class="flex lg:items-start gap-4 flex-col lg:flex-row items-center text-center lg:text-left">
+            <div>
+              <img src="/rayj.png" alt="Dragon Papers Image" class="w-full mb-6 md:mb-8 lg:mb-10 h-auto shadow-lg">
+              <h1 class="text-4xl lg:text-3.5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+                Application dédié au recrutement interne.
+              </h1>
+
+              <a href="https://github.com/WildCodeSchool/0923-paris-js-p3-Rayj" target="_blank" rel="noopener noreferrer" class=" mt-8 inline-block px-2 py-2 font-semibold text-white bg-green-600 rounded-md hover:bg-black-700 focus:outline-none focus:bg-green-700">
+                GitHub Repository
+              </a>
+            </div>
+          </div>
+        </header>
+        <main id="content" class="pt-12 lg:w-1/2 lg:py-12 lg:pl-12 lg:pr-6">
+          <section id="features" class="mb-8 md:mb-12 lg:mb-20" aria-label="Features">
+            <h2 class="text-xl font-bold text-neutral-200 mb-3">Objectif du Projet</h2>
+            <p class="text-neutral-200 text-l mb-3 leading-normal">
+              Le projet "RAYJ," notre troisième projet de formation, vise à rationaliser et optimiser le recrutement interne des entreprises, en favorisant la mobilité des employés existants. Cette application web est conçue pour identifier et valoriser les talents internes, facilitant leur réintégration après une maladie prolongée, une reconversion professionnelle, ou un changement de poste au sein de l'organisation. En mettant en avant les compétences transférables et le potentiel caché, notre solution répond aux besoins des entreprises en matière de visibilité et de gestion des ressources humaines, contribuant ainsi à la réalisation des objectifs organisationnels.       </p>
+            </p>
+            <p class="text-neutral-200 text-l mb-3 leading-normal">
+              L'application simplifie le processus de candidature et de publication des offres d'emploi, rendant le recrutement interne plus efficace et accessible.      
+            </p>
+          </section>
+         
+          <section id="immersive-experience" class="mb-8 md:mb-12 lg:mb-20" aria-label="Immersive Experience">
+            <h2 class="text-xl font-bold text-neutral-200 mb-3">Ma Contribution </h2>
+            <p class="text-neutral-200 text-l mb-4 leading-normal">
+              J'ai joué un rôle clé dans le développement de l'application 'RAYJ'. J'ai conçu la base de données et mis en place des fonctionnalités essentielles telles que le suivi des candidatures, la gestion des favoris, ainsi que la gestion de utilisateur.            </p>
+          </section>
+          
+          <section id="technologies" class="mb-8 md:mb-12 lg:mb-20 ml-5 lg:mr-0 lg:w-96" aria-label="Technologies Used">
+            <h2 class="text-xl font-bold text-neutral-200 mb-3">Technologies Utilisées</h2>
+            <ul class="list-disc text-neutral-200 text-l mb-4">
+              <li>JavaScript (ES6+)</li>
+              <li>ReactJS</li>
+              <li>NodeJS</li>
+              <li>ExpressJS</li>
+              <li>RESTful API</li>
+              <li>MySQL</li>
+              <li>Git & GitHub</li>
+              <li>Figma</li>
+              <li>Postman</li>
+              <li>WorkBench</li>
+    
+            </ul>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
+  <footer class="text-center py-4 text-xs">
+    {new Date().getFullYear()} All rights reserved.
+  </footer>
+</Layout>

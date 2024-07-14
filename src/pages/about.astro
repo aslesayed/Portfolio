@@ -1,0 +1,136 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="About Me">
+  <div class="relative hero z-10">
+    <div class="mx-auto min-h-screen max-w-screen-2xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <div class="lg:flex lg:justify-between lg:gap-4">
+        <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+          <div class="flex lg:items-start gap-4 flex-col lg:flex-row items-center text-center lg:text-left">
+            <img src="/avatar.webp" alt="Sayeda Saima" class="w-20 h-20 rounded-full" />
+            <div>
+             
+              <a href="/" class="text-1xl lg:text-3xl block font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+                <h1>À propos de moi</h1>
+              </a>
+              <h2 class="mt-1 text-sm lg:text-l font-medium text-neutral-400">
+                Découvrez davantage sur mon parcours, mon éducation et mes compétences.
+              </h2>
+            </div>
+          </div>
+        </header>
+        <main id="content" class="pt-16 lg:w-1/2 lg:py-16">
+          <section id="parcours" class="mb-8 scroll-mt-16 md:mb-16 lg:mb-24 lg:scroll-mt-24" aria-label="Parcours">
+            <h2 class="text-xl font-bold text-neutral-200 mb-4">Parcours</h2>
+            <div>
+              <p class="text-neutral-200 text-sm">Je m'appelle Sayeda Saima et j'ai 20 ans. J'ai effectué toute ma scolarité au Bangladesh, où j'ai étudié les sciences, notamment la physique et la biologie. Arrivée en France il y a deux ans, j'ai commencé par une formation de conseiller numérique, mais j'ai rapidement réalisé que ma passion résidait dans le développement web. Avec une base autodidacte en HTML et CSS, j'ai décidé de m'orienter vers la programmation, un domaine aligné avec mes qualités de logique et de pensée critique. J'ai poursuivi une formation intensive de Développeur Web et Web Mobile à la Wild Code School. Au cours des six mois de cette formation, j'ai choisi de me spécialiser en JavaScript, préférant ses opportunités et sa flexibilité pour le front-end et le back-end grâce à NodeJS et ExpressJS. Durant cette formation, j'ai réalisé plusieurs projets me permettant de mettre en pratique mes compétences en développement full-stack.</p>
+            </div>
+          </section>
+          <section id="education" class="mb-8 scroll-mt-16 md:mb-16 lg:mb-24 lg:scroll-mt-24" aria-label="Education">
+            <h2 class="text-xl font-bold text-neutral-200 mb-4">Éducation</h2>
+            <div>
+              <ul class="group/list">
+                <li class="mb-6">
+                  <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 hover:backdrop-blur-sm duration-500">
+                    <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-neutral-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <header class="z-10 mb-1 text-sm font-semibold uppercase tracking-wide text-neutral-500 sm:col-span-2" aria-label="2023 - 2024">
+                      <span>2023 - 2024</span>
+                    </header>
+                    <div class="z-10 sm:col-span-6">
+                      <h3 class="font-medium leading-snug text-neutral-200 text-sm">
+                        <div>
+                          <a class="inline-flex items-baseline font-medium leading-tight text-neutral-200 hover:text-neutral-300 focus-visible:text-neutral-300 group/link text-sm">
+                            <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                            <div class="flex gap-x-2 items-center">
+                              <span>
+                                Développeur Web et Web Mobile · <span class="inline-block">Wild Code School Paris</span>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                      </h3>
+                    </div>
+                  </div>
+                </li>
+                <li class="mb-6">
+                  <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 hover:backdrop-blur-sm duration-500">
+                    <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-neutral-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <header class="z-10 mb-1 text-sm font-semibold uppercase tracking-wide text-neutral-500 sm:col-span-2" aria-label="2022 - 2023">
+                      <span>2022 - 2023</span>
+                    </header>
+                    <div class="z-10 sm:col-span-6">
+                      <h3 class="font-medium leading-snug text-neutral-200 text-sm">
+                        <div>
+                          <a class="inline-flex items-baseline font-medium leading-tight text-neutral-200 hover:text-neutral-300 focus-visible:text-neutral-300 group/link text-sm">
+                            <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                            <div class="flex gap-x-2 items-center">
+                              <span>
+                                CCP1 Conseiller Numérique · <span class="inline-block">LePoleS</span>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                      </h3>
+                    </div>
+                  </div>
+                </li>
+                <li class="mb-6">
+                  <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 hover:backdrop-blur-sm duration-500">
+                    <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-neutral-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <header class="z-10 mb-1 text-sm font-semibold uppercase tracking-wide text-neutral-500 sm:col-span-2" aria-label="2019 - 2021">
+                      <span>2019 - 2021</span>
+                    </header>
+                    <div class="z-10 sm:col-span-6">
+                      <h3 class="font-medium leading-snug text-neutral-200 text-sm">
+                        <div>
+                          <a class="inline-flex items-baseline font-medium leading-tight text-neutral-200 hover:text-neutral-300 focus-visible:text-neutral-300 group/link text-sm">
+                            <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                            <div class="flex gap-x-2 items-center">
+                              <span>
+                                Baccalauréat scientifique · <span class="inline-block">Mastermind English Medium School (Bangladaise)</span>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                      </h3>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section id="soft-skills" class="mb-8 scroll-mt-16 md:mb-16 lg:mb-24 lg:scroll-mt-24" aria-label="Soft Skills">
+            <h2 class="text-xl font-bold text-neutral-200 mb-4">Soft Skills</h2>
+            <div>
+              <p class="text-neutral-200 text-sm">Résolution de problèmes et pensée critique,
+                Attention aux détails,
+                Capacité d'adaptation,
+                Adaptabilité et flexibilité,
+                Apprentissage continu et auto-amélioration
+              </p>
+            </div>
+          </section>
+          <section id="hard-skills" class="mb-8 scroll-mt-16 md:mb-16 lg:mb-24 lg:scroll-mt-24" aria-label="Hard Skills">
+            <h2 class="text-xl font-bold text-neutral-200 mb-4">Hard Skills</h2>
+            <div>
+              <p class="text-neutral-200 text-sm">HTML/CSS,
+                JavaScript (es5, es6+),
+                NodeJS,
+                ExpressJS,
+                ReactJS,
+                Rest,
+                SQL : MySQL,
+                GIT : Github, github actions,
+                Jest : testing (unit, integration)
+              </p>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
+  <footer class="text-center py-4 text-xs">
+    {new Date().getFullYear()} All rights reserved.
+  </footer>
+</Layout>
