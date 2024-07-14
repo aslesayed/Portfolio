@@ -14,14 +14,5 @@ export const SOCIALS = [
     url: "http://www.linkedin.com/in/saima-sayeda-8703702a2",
     icon: IconLinkedin,
   },
-  // {
-  //   name: "Twitter",
-  //   url: "https://twitter.com/rusin_vadim",
-  //   icon: IconTwitter,
-  // },
-  // {
-  //   name: "Dribbble",
-  //   url: "https://dribbble.com/iamvr",
-  //   icon: IconDribbble,
-  // },
+  
 ];
