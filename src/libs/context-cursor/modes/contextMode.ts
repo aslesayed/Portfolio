@@ -15,7 +15,7 @@ const contextMode = (
   let isHovered: boolean = false;
   let cursorTarget: HTMLElement = null;
 
-  const moveCursor = (e: MouseEvent) => {
+  const moveCursor = (e: MouseEvent) => {//
     // If element is not hovered
     if (!isHovered) {
       TweenLite.to(cursor, props.transitionSpeed, {

@@ -5,4 +5,4 @@ const propNames = {
   lift: "lift",
 };
 
-export default propNames;
+export default propNames;//

@@ -13,7 +13,7 @@ const contextCursor = (props: CProps = {}) => {
 
   // Set base
   setStyles();
-  const cCursor = addCursor(props) as HTMLElement;
+  const cCursor = addCursor(props) as HTMLElement;//
 
   // Load mode when page is loaded
   window.onload = () => {

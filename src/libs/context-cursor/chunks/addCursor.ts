@@ -7,7 +7,7 @@ const addCursor = (props: CProps) => {
     );
     contextCursor.setAttribute("class", "c-cursor");
     document.body.prepend(contextCursor);
-    return contextCursor;
+    return contextCursor;//
   }
 };
 

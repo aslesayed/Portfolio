@@ -155,7 +155,7 @@ const SparklesCore = (props: ParticlesProps) => {
                     offset: 0,
                   },
                 },
-              },
+              },//
               effect: {
                 close: true,
                 fill: true,

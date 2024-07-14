@@ -7,6 +7,6 @@ const isElHasProperty = (el: HTMLElement, property: string) => {
   } else {
     return false;
   }
-};
+};//
 
 export default isElHasProperty;
