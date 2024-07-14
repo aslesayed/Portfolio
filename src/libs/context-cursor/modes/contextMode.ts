@@ -15,19 +15,19 @@ const contextMode = (
   let isHovered: boolean = false;
   let cursorTarget: HTMLElement = null;
 
-  const moveCursor = (e: MouseEvent) => {//
-    // If element is not hovered
+  const moveCursor = (e: MouseEvent) => {
+
     if (!isHovered) {
       TweenLite.to(cursor, props.transitionSpeed, {
         x: e.clientX - props.radius / 2,
         y: e.clientY - props.radius / 2,
       });
-      // If eleemnt is hovered
+
     } else {
       const borderRadius = Number(
         window.getComputedStyle(cursorTarget).borderRadius.slice(0, -2) as any
       );
-      // For "LIFT" mode
+    
       if (isElHasProperty(cursorTarget, propNames.lift)) {
         TweenLite.to(cursorTarget, props.transitionSpeed, {
           x: getMoveIndex(
@@ -65,7 +65,7 @@ const contextMode = (
             e.clientY - cursorTarget.getBoundingClientRect().top
           }px, rgba(255,255,255,0.4), rgba(255,255,255,0))`,
         });
-        // For default "PARALLAX" mode
+       
       } else {
         TweenLite.to(cursor, props.transitionSpeed, {
           x:
@@ -104,7 +104,7 @@ const contextMode = (
               ? null
               : props.hoverPadding * 2),
         });
-        // For "NO PARALLAX" property
+       
         if (!isElHasProperty(cursorTarget, propNames.noParallax)) {
           TweenLite.to(cursorTarget, props.transitionSpeed, {
             x: -getMoveIndex(
@@ -168,7 +168,7 @@ const contextMode = (
     });
   };
 
-  // Event listeners
+  
   document.addEventListener("mousewheel", (e: WheelEvent) => {
     handleMouseOut(e);
   });
